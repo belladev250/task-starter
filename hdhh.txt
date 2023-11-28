@@ -1,0 +1,14 @@
+npm install tailwindcss
+Create Tailwind CSS Configuration:
+bash
+Copy code
+npx tailwindcss init -p
+
+Update src/index.css with Tailwind imports:
+css
+Copy code
+/* src/index.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
